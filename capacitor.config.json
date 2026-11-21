@@ -1,0 +1,7 @@
+
+{
+  "appId": "br.com.micaportugues.app",
+  "appName": "Mica Português",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}
