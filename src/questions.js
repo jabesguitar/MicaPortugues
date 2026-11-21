@@ -1,0 +1,57 @@
+export const questions = [
+{q:"O que é uma crônica?",a:["Um texto geralmente ligado a situações do dia a dia","Uma lista de regras gramaticais","Uma notícia sempre científica","Um poema obrigatoriamente rimado"],c:0,why:"A crônica costuma partir de acontecimentos simples e cotidianos." ,topic:"Crônica"},
+{q:"Na crônica de ficção, os personagens, cenários e enredos são...",a:["Sempre históricos","Inventados, mesmo que abordem temas comuns","Obrigatoriamente mágicos","Relatados como documentos oficiais"],c:1,why:"A ficção usa elementos imaginados para tratar de temas da vida." ,topic:"Crônica de ficção"},
+{q:"Qual característica aproxima a linguagem da crônica de uma conversa?",a:["Linguagem técnica","Linguagem coloquial e acessível","Uso obrigatório de rimas","Vocabulário científico"],c:1,why:"A linguagem costuma ser simples e próxima da fala cotidiana." ,topic:"Linguagem"},
+{q:"O que significa desfecho aberto ou reflexivo?",a:["A história termina sempre com uma moral","A narrativa não apresenta personagens","O final pode deixar uma questão para o leitor refletir","O texto não tem começo"],c:2,why:"Nem sempre há conclusão fechada; o leitor pode ser convidado a pensar." ,topic:"Crônica de ficção"},
+{q:"Quem é o narrador-observador?",a:["Quem participa como personagem principal","A voz que conta e observa sem participar dos fatos","O leitor da história","O autor em qualquer situação"],c:1,why:"O narrador-observador relata os acontecimentos sem agir como personagem." ,topic:"Narrador"},
+{q:"Na expressão ‘Amizade & Futebol’, quem é o autor citado no livro?",a:["Machado de Assis","Moacyr Scliar","Monteiro Lobato","Carlos Drummond de Andrade"],c:1,why:"A página identifica a crônica como texto de Moacyr Scliar." ,topic:"Leitura"},
+{q:"Qual esporte aproxima e depois provoca conflito entre os amigos da crônica?",a:["Vôlei","Basquete","Futebol","Natação"],c:2,why:"O futebol é o elemento que altera a relação dos dois." ,topic:"Leitura"},
+{q:"Por que a garota fica revoltada com o amigo?",a:["Ele não vai à escola","Ele diz que futebol é coisa para homem","Ela perde uma partida","Ele muda de cidade"],c:1,why:"Ele demonstra preconceito ao dizer que futebol seria coisa para homem." ,topic:"Leitura"},
+{q:"O que significa ‘impassível’, segundo o glossário?",a:["Muito animado","Sem demonstrar emoção","Muito cansado","Com medo"],c:1,why:"O glossário define impassível como sem demonstrar emoção." ,topic:"Vocabulário"},
+{q:"O que significa ‘reconciliação’?",a:["Começar uma discussão","Voltar a ter boas relações","Mudar de time","Desistir de jogar"],c:1,why:"Reconciliação é voltar a ter boas relações." ,topic:"Vocabulário"},
+{q:"A concordância verbal é a ligação entre...",a:["O adjetivo e o advérbio","O verbo e o sujeito","O artigo e o parágrafo","O título e o autor"],c:1,why:"O verbo deve concordar com o sujeito em pessoa e número." ,topic:"Concordância verbal"},
+{q:"Na frase ‘As portas do carro impressionaram os passageiros’, qual é o núcleo do sujeito?",a:["carro","passageiros","portas","impressionaram"],c:2,why:"O núcleo do sujeito é ‘portas’, que está no plural." ,topic:"Sujeito"},
+{q:"Em ‘A festa das meninas aconteceu neste mês’, por que o verbo está no singular?",a:["Porque ‘meninas’ é plural","Porque o núcleo do sujeito é ‘festa’","Porque toda frase fica no singular","Porque ‘mês’ é singular"],c:1,why:"O núcleo do sujeito é ‘festa’, no singular." ,topic:"Concordância verbal"},
+{q:"Quando o sujeito composto aparece antes do verbo, como fica o verbo?",a:["No plural","Sempre no singular","No infinitivo","Não pode haver verbo"],c:0,why:"O livro explica que o verbo fica no plural." ,topic:"Sujeito composto"},
+{q:"Em ‘O jogador e a jogadora chegaram rápido’, o sujeito é...",a:["Simples","Composto","Oculto","Indeterminado"],c:1,why:"Há dois núcleos: jogador e jogadora." ,topic:"Sujeito composto"},
+{q:"Quando o sujeito composto aparece depois do verbo, o livro apresenta...",a:["Somente o plural","Somente o singular","Singular com o elemento mais próximo ou plural com todos","A ausência de concordância"],c:2,why:"As duas construções são mostradas: ‘Chegou...’ e ‘Chegaram...’." ,topic:"Sujeito composto"},
+{q:"Com ‘a maioria dos alunos’, o verbo pode ficar...",a:["Apenas no infinitivo","No singular ou no plural","Apenas no futuro","Sem sujeito"],c:1,why:"Expressões partitivas admitem concordância com a expressão ou com o substantivo plural." ,topic:"Expressões partitivas"},
+{q:"Na construção ‘um dos que’, qual afirmação está de acordo com o livro?",a:["O verbo só pode ficar no singular","O verbo pode ficar no singular ou no plural","O verbo deve desaparecer","A expressão nunca é usada"],c:1,why:"As duas formas aparecem no material; o plural é normalmente mais usado." ,topic:"Um dos que"},
+{q:"Qual é uma função possível da crônica de ficção?",a:["Comentar ou refletir sobre aspectos da sociedade","Apresentar somente cálculos","Ensinar uma receita obrigatoriamente","Registrar apenas dados oficiais"],c:0,why:"A crônica pode promover crítica e reflexão social." ,topic:"Reflexão social"},
+{q:"O que é enredo?",a:["A sequência dos acontecimentos da história","O local onde o autor mora","A capa do livro","A lista de personagens reais"],c:0,why:"Enredo é a organização dos fatos narrados." ,topic:"Ficção e linguagem"},
+{q:"O narrador é necessariamente o próprio autor?",a:["Sim, sempre","Não; é a voz que conta a história","Sim, quando há futebol","Não existe narrador em crônicas"],c:1,why:"Narrador e autor são elementos diferentes; o narrador é a voz narrativa." ,topic:"Ficção e linguagem"},
+{q:"Ficção significa obrigatoriamente história com magia?",a:["Sim","Não; uma situação inventada do cotidiano também pode ser ficcional","Somente histórias de terror","Somente histórias de animais"],c:1,why:"A ficção pode retratar situações comuns com acontecimentos inventados." ,topic:"Ficção e linguagem"},
+{q:"Segundo a página ‘Para saber mais’, em que ano terminou a proibição oficial do futebol feminino no Brasil?",a:["1979","1983","1994","2002"],c:0,why:"A página informa que o fim da proibição ocorreu em 1979." ,topic:"Futebol feminino"},
+{q:"Segundo o mesmo quadro, em que ano ocorreu a regulamentação oficial do futebol feminino?",a:["1970","1979","1983","1999"],c:2,why:"A página indica 1983 como ano da regulamentação oficial." ,topic:"Futebol feminino"},
+{q:"Na produção escrita, o livro sugere que a crônica pode partir de...",a:["Uma notícia, memória ou observação pessoal","Apenas uma fórmula matemática","Uma lista de compras","Somente uma lei"],c:0,why:"A proposta sugere notícia, memória ou observação pessoal como ponto de partida." ,topic:"Produção escrita"},
+{q:"Qual frase apresenta concordância verbal adequada com sujeito composto antes do verbo?",a:["O atleta e a treinadora chegou.","O atleta e a treinadora chegaram.","O atleta e a treinadora chega.","O atleta e a treinadora chegar."],c:1,why:"Sujeito composto antes do verbo pede verbo no plural." ,topic:"Concordância verbal"},
+{q:"Qual palavra do glossário significa ‘verdadeira, autêntica’?",a:["Consternada","Legítima","Impassível","Reconciliação"],c:1,why:"Legítima significa verdadeira ou autêntica." ,topic:"Vocabulário"},
+{q:"‘Consternados’ significa...",a:["Muito abalados","Muito velozes","Bem-humorados","Desatentos"],c:0,why:"O termo indica pessoas abaladas ou entristecidas." ,topic:"Vocabulário"},
+{q:"Qual alternativa reúne elementos comuns de uma narrativa ficcional?",a:["Personagens, cenário e enredo","Somente título e fonte","Índice, capa e preço","Gráficos e tabelas apenas"],c:0,why:"Personagens, cenários e enredos são citados na definição da crônica de ficção." ,topic:"Ficção e linguagem"},
+{q:"Em ‘Jogava muito bem a garota’, o sujeito aparece...",a:["Antes do verbo","Depois do verbo","No título","Não aparece"],c:1,why:"‘A garota’ é sujeito posposto ao verbo ‘jogava’." ,topic:"Concordância verbal"}
+];
+
+export const pairs = [
+["Crônica de ficção","Narrativa com personagens, cenários e enredo inventados"],
+["Narrador-observador","Conta sem participar dos acontecimentos"],
+["Desfecho aberto","Final que pode deixar reflexão ou pergunta"],
+["Linguagem coloquial","Próxima da conversa cotidiana"],
+["Concordância verbal","Ligação do verbo com o sujeito"],
+["Sujeito composto antes do verbo","Verbo no plural"],
+["Impassível","Sem demonstrar emoção"],
+["Reconciliação","Voltar a ter boas relações"]
+];
+export const trueFalse = [
+["A crônica costuma abordar situações do cotidiano.",true,"O cotidiano é uma base frequente da crônica."],
+["Na crônica de ficção, tudo precisa ter acontecido de verdade.",false,"Personagens, cenários e enredos podem ser inventados."],
+["A linguagem da crônica costuma ser acessível.",true,"Ela se aproxima da fala cotidiana."],
+["O desfecho de toda crônica precisa trazer uma moral explícita.",false,"O final pode ser aberto ou reflexivo."],
+["Narrador e autor são necessariamente a mesma pessoa.",false,"Narrador é a voz que conta a história."],
+["Sujeito composto antes do verbo pede plural no exemplo estudado.",true,"O jogador e a jogadora chegaram."],
+["‘A maioria dos alunos entende’ é uma construção apresentada no livro.",true,"A expressão partitiva pode concordar no singular."],
+["‘A maioria dos alunos entendem’ também aparece como possibilidade.",true,"O verbo também pode concordar com o substantivo plural."],
+["A expressão ‘um dos que’ admite apenas o singular.",false,"O livro apresenta singular e plural."],
+["‘Impassível’ significa sem demonstrar emoção.",true,"Essa é a definição do glossário."],
+["O futebol feminino foi regulamentado oficialmente em 1983, segundo a página.",true,"O quadro ‘Para saber mais’ informa 1983."],
+["No sujeito composto depois do verbo, o livro apresenta duas possibilidades de concordância.",true,"Pode concordar com o mais próximo ou com todos os elementos."]
+];
