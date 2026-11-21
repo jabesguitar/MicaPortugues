@@ -9,10 +9,37 @@
 <div class="ambient a1"></div><div class="ambient a2"></div>
 <header class="topbar"><a class="brand" href="#inicio" aria-label="Mica Português início"><span class="brand-mark">M</span><span>MICA <small>PORTUGUÊS</small></span></a><nav><button class="nav-link" data-screen="study">📖 Estudar</button><button class="nav-link" data-screen="games">🎮 Jogos</button><button class="nav-link" data-screen="about">✦ Guia</button></nav><div class="sound-control"><button id="soundToggle" class="icon-btn" aria-label="Ativar ou desativar som">♫</button><input id="volume" aria-label="Volume" type="range" min="0" max="100" value="40"></div></header>
 <main>
-<section id="study"
-<div class="hero-grid"><div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> MISSÃO DE APRENDIZAGEM · 6º ANO</div><h1>Português<br><em>com outro ritmo.</em></h1><p>Explore ideias, decifre palavras e domine a gramática. Cada rodada é uma nova descoberta.</p><div class="hero-actions"><button class="primary" data-screen="study">Começar estudando <span>↗</span></button><button class="ghost" data-screen="games">Entrar nos desafios <span>→</span></button></div><div class="mini-stats"><div><strong>30</strong><small>perguntas-base</small></div><i></i><div><strong>7</strong><small>formas de jogar</small></div><i></i><div><strong>3</strong><small>níveis</small></div></div></div>
-<div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="book-stack"><div class="book book-back"></div><div class="book book-front"><span class="book-spark">✦</span><b>PALAVRAS<br>EM JOGO</b><small>LER · PENSAR · DESCOBRIR</small></div></div><div class="float-card card-pen">✎ <span>Escreva<br><b>novas ideias</b></span></div><div class="float-card card-star">✦ <span>Desafio<br><b>liberado!</b></span></div><span class="doodle d1">✳</span><span class="doodle d2">Aa</span></div></div>
-<div class="home-bottom"><div class="section-kicker">ESCOLHA SEU CAMINHO</div><div class="path-grid"><button class="path-card study-path" data-screen="study"><span class="path-icon">▤</span><span><b>Biblioteca de estudo</b><small>Resumo organizado para revisar antes da prova.</small></span><strong>↗</strong></button><button class="path-card play-path" data-screen="games"><span class="path-icon">⚡</span><span><b>Central de desafios</b><small>Quiz, memória, associação e muito mais.</small></span><strong>↗</strong></button></div></div>
+<section id="home" class="screen home-dashboard active">
+  <div class="home-welcome">
+    <div class="welcome-copy">
+      <div class="eyebrow"><span class="pulse"></span> SUA AVENTURA DE PORTUGUÊS · 6º ANO</div>
+      <h1>Português <em>em jogo.</em></h1>
+      <p>Leia, descubra e pratique. Escolha por onde começar.</p>
+    </div>
+    <div class="welcome-seal" aria-hidden="true">
+      <span>✦</span><b>APRENDER<br>É DESCOBRIR</b><small>LER · PENSAR · JOGAR</small>
+    </div>
+  </div>
+
+  <div class="home-actions-grid">
+    <button class="home-action games-action" data-screen="games">
+      <span class="action-symbol">🎮</span>
+      <span class="action-text"><small>MISSÃO PRINCIPAL</small><b>JOGAR AGORA</b><em>Quiz principal e seis desafios para testar o que você aprendeu.</em><strong>Escolher um jogo <i>↗</i></strong></span>
+      <span class="action-corner">01</span>
+    </button>
+    <button class="home-action study-action" data-screen="study">
+      <span class="action-symbol">📖</span>
+      <span class="action-text"><small>REVISÃO DA MATÉRIA</small><b>ESTUDAR</b><em>Resumos, explicações e exemplos para a prova.</em><strong>Abrir caderno <i>↗</i></strong></span>
+      <span class="action-corner">02</span>
+    </button>
+    <button class="home-action guide-action" data-screen="about">
+      <span class="action-symbol">🧭</span>
+      <span class="action-text"><small>COMO APROVEITAR</small><b>GUIA</b><em>Entenda os níveis, as vidas e os modos de jogo.</em><strong>Ver orientações <i>↗</i></strong></span>
+      <span class="action-corner">03</span>
+    </button>
+  </div>
+
+  <div class="home-tip"><span>✦</span> DICA: ESTUDE UM POUCO E DEPOIS COLOQUE SEU CONHECIMENTO À PROVA!</div>
 </section>
 <section id="study" class="screen"><div class="page-head"><div><div class="eyebrow">CADERNO DIGITAL · PORTUGUÊS</div><h2>Seu mapa de <em>estudo.</em></h2><p>Releia os conceitos, observe os exemplos e depois teste o que aprendeu.</p></div><button class="back-home" data-screen="home">← Início</button></div><div class="study-layout"><aside class="study-nav"><button class="study-tab active" data-article="overview">✦ Visão geral</button><button class="study-tab" data-article="fiction">▣ Crônica de ficção</button><button class="study-tab" data-article="language">Aa Ficção e linguagem</button><button class="study-tab" data-article="reading">⚽ Amizade & Futebol</button><button class="study-tab" data-article="agreement">↔ Concordância verbal</button><button class="study-tab" data-article="special">✳ Casos especiais</button><button class="study-tab" data-article="writing">✎ Produção escrita</button></aside><article id="article" class="article paper"></article></div><div class="study-footer"><span>Terminou a revisão?</span><button class="primary" data-screen="games">Partir para os jogos →</button></div></section>
 <section id="games" class="screen"><div class="page-head"><div><div class="eyebrow">ÁREA DE TREINO · ESCOLHA UM FORMATO</div><h2>Qual é o seu <em>desafio?</em></h2><p>Treine de vários jeitos. Os jogos usam o conteúdo estudado nesta unidade.</p></div><button class="back-home" data-screen="home">← Início</button></div><div class="level-panel"><div class="level-copy"><span class="section-kicker">PRIMEIRO, ESCOLHA O RITMO</span><b>Todo desafio começa com uma boa escolha.</b></div><div class="levels"><button class="level active" data-level="easy"><span>🌱</span><b>Fácil</b><small>1:30 por pergunta · 3 vidas</small></button><button class="level" data-level="normal"><span>🚀</span><b>Normal</b><small>1:00 por pergunta · 4 vidas</small></button><button class="level" data-level="hard"><span>🔥</span><b>Difícil</b><small>0:30 por pergunta · 5 vidas</small></button></div></div><div class="game-grid"><button class="game-card featured" data-game="quiz"><span class="game-number">01 / PRINCIPAL</span><span class="game-emoji">🎯</span><b>Quiz relâmpago</b><small>Quatro alternativas. Uma resposta certa. Seu raciocínio em campo.</small><span class="game-cta">Jogar agora ↗</span></button><button class="game-card" data-game="truefalse"><span class="game-number">02</span><span class="game-emoji">⚖️</span><b>Verdadeiro ou falso</b><small>Julgue as afirmações e prove que sabe.</small><span class="game-cta">Abrir jogo →</span></button><button class="game-card" data-game="pairs"><span class="game-number">03</span><span class="game-emoji">🧩</span><b>Associe pergunta e resposta</b><small>Encontre os pares que combinam.</small><span class="game-cta">Abrir jogo →</span></button><button class="game-card" data-game="columns"><span class="game-number">04</span><span class="game-emoji">⇄</span><b>Ligue as colunas</b><small>Conecte conceitos e explicações.</small><span class="game-cta">Abrir jogo →</span></button><button class="game-card" data-game="memory"><span class="game-number">05</span><span class="game-emoji">🃏</span><b>Jogo da memória</b><small>Vire as cartas e guarde as relações.</small><span class="game-cta">Abrir jogo →</span></button><button class="game-card" data-game="search"><span class="game-number">06</span><span class="game-emoji">🔎</span><b>Caça-palavras</b><small>Encontre palavras escondidas no quadro.</small><span class="game-cta">Abrir jogo →</span></button><button class="game-card" data-game="crossword"><span class="game-number">07</span><span class="game-emoji">✚</span><b>Palavras cruzadas</b><small>Descubra os termos pelas pistas.</small><span class="game-cta">Abrir jogo →</span></button></div></section>
